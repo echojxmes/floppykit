@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Disk images: often copyrighted and big, get them the hell out
+*.img
+*.ima
+*.imd
+*.dsk
+*.hfe
+*.vfd
+*.flp
+
+# Scratch output from testing
+extracted/
+out/
+
+# Exception: homemade, license-clean test images are fine to commit
+!tests/fixtures/*.img
